@@ -1,0 +1,145 @@
+
+    const Foods= [
+        {
+            "Category": "Cake", 
+            "title": "Red Velvet Cake", 
+            "id": 1, 
+            "lemak": "13.74", 
+            "protein": "5.45", 
+            "karbohidrat": "37.45", 
+            "difficulty":"Easy | 30mins| 200 kcal",
+            "kalori": "293 (158%)", 
+            "image": require('../assets/redvel.jpg'),
+            "typewo": [
+                "Toyota", 
+                "BMW"
+            ]
+           
+        }, 
+        {
+            "Category": "Cake", 
+            "title": "Cheese Cake (Sari Roti)", 
+            "id": 2, 
+            "lemak": "7", 
+            "protein": "3", 
+            "karbohidrat": "25", 
+            "difficulty":"Easy | 30mins| 200 kcal",
+            "kalori": "200 (7%)", 
+            "image": require('../assets/srcheese.jpg'),
+            "typewo": [
+                "Toyota", 
+                "BMW"
+            ]
+        }, 
+        {
+            "Category": "Cake", 
+            "title": "Keju Cake (Kraft)", 
+            "id": 3, 
+            "difficulty":"Easy | 30mins| 200 kcal",
+            "lemak": "2.5", 
+            "protein": "1", 
+            "karbohidrat": "9", 
+            "kalori": "60 (2%)", 
+            "image": require('../assets/kj.jpg'),
+           
+        },
+        {
+            "Category": "Salad", 
+            "title": "Fruit Salad", 
+            "difficulty":"Easy | 20mins| 250 kcal",
+            "id": 4, 
+            "lemak": "1.63", 
+            "protein": "1.27", 
+            "karbohidrat": "25", 
+            "kalori": "108 (2%)", 
+            "image": require('../assets/fruitsalad.jpeg'),
+        },{
+            "Category": "Salad", 
+            "title": "Pasta Salad", 
+            "id": 5, 
+            "difficulty":"Easy | 30mins| 200 kcal",
+            "lemak": "18.82", 
+            "protein": "6.66", 
+            "karbohidrat": "40.67", 
+            "kalori": "358 (48%)", 
+            "image": require('../assets/pastasalad.jpeg'),
+        },{
+            "Category": "Salad", 
+            "title": "Greek Salad", 
+            "id": 6, 
+            "difficulty":"Easy | 30mins| 200 kcal",
+            "lemak": "7.28", 
+            "protein": "6.99", 
+            "karbohidrat": "3.38", 
+            "kalori": "106 (8%)", 
+            "image": require('../assets/greeksalad.jpeg'),
+        },
+        {
+            "Category": "Pie", 
+            "title": "Coconut Cream Pie", 
+            "difficulty":"Intermediate | 40mins| 300 kcal",
+            "id": 7, 
+            "lemak": "14.58", 
+            "protein": "6.34", 
+            "karbohidrat": "29.67", 
+            "kalori": "274 (107%)", 
+            "image": require('../assets/coconutcreampie.jpg'),
+        },{
+            "Category": "Pie", 
+            "title": "Strawberry Pie", 
+            "id": 8, 
+            "difficulty":"Intermediate | 40mins| 300 kcal",
+            "lemak": "14.63", 
+            "protein": "3.3", 
+            "karbohidrat": "42.53", 
+            "kalori": "310 (88%)", 
+            "image": require('../assets/strawberrypie.jpg'),
+
+        },{
+            "Category": "Pie", 
+            "title": "Apple Pie", 
+            "id": 9, 
+            "difficulty":"Intermediate | 40mins| 300 kcal",
+            "lemak": "18.05", 
+            "protein": "3.53", 
+            "karbohidrat": "47.07", 
+            "kalori": "360 (137%)", 
+            "image": require('../assets/applepie.jpg'),
+
+        },
+        {
+            "Category": "Smoothies", 
+            "title": "Strawberry Banana Smoothies", 
+            "difficulty":"Easy | 15mins| 150 kcal",
+            "id": 10, 
+            "lemak": "1.51", 
+            "protein": "4.14", 
+            "karbohidrat": "64.74", 
+            "kalori": "262 (15%)", 
+            "image": require('../assets/strawberrybananasmoothies.jpg'),
+
+        },
+        {
+            "Category": "Smoothies", 
+            "title": "Blueberry Smoothies", 
+            "id": 11, 
+            "difficulty":"Easy | 15mins| 150 kcal",
+            "lemak": "7.1", 
+            "protein": "9.23", 
+            "karbohidrat": "50.45", 
+            "kalori": "292 (18%)", 
+            "image": require('../assets/blueberrysmoothies.jpg'),
+        },
+        {
+            "Category": "Smoothies", 
+            "title": "Green Smoothies", 
+            "id": 12, 
+            "difficulty":"Easy | 15mins| 150 kcal",
+            "lemak": "0.42", 
+            "protein": "1.61", 
+            "karbohidrat": "14.89", 
+            "kalori": "62 (8%)", 
+            "image": require('../assets/greensmoothies.jpg'),
+        }
+    ]
+    export default Foods;
