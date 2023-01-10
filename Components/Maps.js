@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Dimensions, PermissionsAndroid,TouchableOpacity
 const Width = Dimensions.get('window').width;
 const Height = Dimensions.get('window').height;
 import MapView,{PROVIDER_GOOGLE, Marker} from 'react-native-maps';
-var GOOGLE_MAPS_APIKEY='AIzaSyCxn32kd619NS2s3S5fAxaO7BdntIP7zrc'
+var GOOGLE_MAPS_APIKEY='Api Key'
 import MapViewDirections from 'react-native-maps-directions';
 import Geolocation from 'react-native-geolocation-service';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
